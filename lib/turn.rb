@@ -36,7 +36,7 @@ def turn(board)
   while true
     puts "Please enter 1-9:"
     input = gets().strip()
-    index = 
+    index =
   end
 end
 
