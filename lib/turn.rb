@@ -21,4 +21,13 @@ end
 def move(board, index, token = "X")
   board[index] = token
 end
+
+def display_board(board)
+  [0,3,6].each do |i|
+    puts " #{board[i]} | #{board[i + 1]} | #{board[i + 2]} "
+    if i != 6
+      puts '-----------'
+    end
+  end
+end
   
