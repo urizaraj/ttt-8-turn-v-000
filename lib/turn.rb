@@ -33,5 +33,13 @@ def display_board(board)
 end
 
 def turn(board)
-  puts "Please enter 1-9:"
+  while true
+    puts "Please enter 1-9:"
+    input = gets().strip()
+    index = 
+  end
+end
+
+def input_to_index(input)
+  return input.to_i() - 1
 end
