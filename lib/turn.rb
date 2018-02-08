@@ -22,6 +22,7 @@ def move(board, index, token = "X")
   board[index] = token
 end
 
+# displays the board
 def display_board(board)
   [0,3,6].each do |i|
     puts " #{board[i]} | #{board[i + 1]} | #{board[i + 2]} "
