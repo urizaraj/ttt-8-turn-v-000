@@ -8,6 +8,7 @@ def valid_move?(board, index)
   return false
 end
 
+#returns whether position on board is taken
 def position_taken?(board, index)
   space = board[index]
   if space == 'X' || space == "O"
